@@ -2,7 +2,7 @@ import express from 'express';
 import { records } from './core/app';
 
 const app = express();
-const port = 3000;
+const port = 8000;
 app.use(express.json());
 app.use(express.static("public"));
 app.set("view engine", "ejs");
